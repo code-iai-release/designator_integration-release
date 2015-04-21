@@ -1,0 +1,12 @@
+Source: ros-hydro-designator-integration-cpp
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-catkin, ros-hydro-designator-integration-msgs, ros-hydro-roscpp
+Homepage: http://ros.org/wiki/designator_integration
+Standards-Version: 3.9.2
+
+Package: ros-hydro-designator-integration-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-designator-integration-msgs, ros-hydro-roscpp
+Description: Integration of Designator Communication via ROS as C++ Classes
