@@ -1,0 +1,12 @@
+ros-hydro-designator-integration (0.0.2-0raring) raring; urgency=high
+
+  * package.xml updates
+  * Added metapackage designator_integration to prepare release.
+  * Renamed package designator_integration into designator_integration_cpp.
+  * fixed indentation
+  * Moved code of designator-integration into sub-folder of same name.
+  * Contributors: Georg Bartels, Jan Winkler, Sanic
+
+ -- Jan Winkler <winkler@cs.uni-bremen.de>  Mon, 20 Apr 2015 22:00:00 -0000
+
+
