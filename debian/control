@@ -1,0 +1,12 @@
+Source: ros-hydro-designator-integration-lisp
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-hydro-alexandria, ros-hydro-catkin, ros-hydro-cl-tf2, ros-hydro-designator-integration-msgs, ros-hydro-roslisp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-designator-integration-lisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-alexandria, ros-hydro-cl-tf2, ros-hydro-designator-integration-msgs, ros-hydro-roslisp
+Description: Integration of Designator Communication via ROS as Lisp interface
