@@ -1,0 +1,12 @@
+Source: ros-indigo-designator-integration-lisp
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-alexandria, ros-indigo-catkin, ros-indigo-cl-tf2, ros-indigo-designator-integration-msgs, ros-indigo-roslisp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-designator-integration-lisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-alexandria, ros-indigo-cl-tf2, ros-indigo-designator-integration-msgs, ros-indigo-roslisp
+Description: Integration of Designator Communication via ROS as Lisp interface
