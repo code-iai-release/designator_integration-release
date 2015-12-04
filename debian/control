@@ -1,0 +1,12 @@
+Source: ros-indigo-designator-integration-cpp
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-designator-integration-msgs, ros-indigo-roscpp
+Homepage: http://ros.org/wiki/designator_integration
+Standards-Version: 3.9.2
+
+Package: ros-indigo-designator-integration-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-designator-integration-msgs, ros-indigo-roscpp
+Description: Integration of Designator Communication via ROS as C++ Classes
