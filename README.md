@@ -1,3 +1,29 @@
+## designator_integration (jade) - 0.0.5-0
+
+The packages in the `designator_integration` repository were released into the `jade` distro by running `/usr/bin/bloom-release designator_integration --track jade --rosdistro jade` on `Thu, 21 Apr 2016 09:45:29 -0000`
+
+These packages were released:
+- `designator_integration`
+- `designator_integration_cpp`
+- `designator_integration_lisp`
+
+Version of package(s) in repository `designator_integration`:
+
+- upstream repository: https://github.com/code-iai/designator_integration.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.5-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.21`
+- catkin_pkg version: `0.2.4`
+- rosdep version: `0.11.4`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## designator_integration (indigo) - 0.0.5-0
 
 The packages in the `designator_integration` repository were released into the `indigo` distro by running `/usr/bin/bloom-release designator_integration --track indigo --rosdistro indigo` on `Thu, 21 Apr 2016 09:40:08 -0000`
