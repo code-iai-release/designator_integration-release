@@ -1,0 +1,12 @@
+Source: ros-jade-designator-integration-lisp
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-alexandria, ros-jade-catkin, ros-jade-cl-tf2, ros-jade-designator-integration-msgs, ros-jade-roslisp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-designator-integration-lisp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-alexandria, ros-jade-cl-tf2, ros-jade-designator-integration-msgs, ros-jade-roslisp
+Description: Integration of Designator Communication via ROS as Lisp interface
