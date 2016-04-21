@@ -1,0 +1,23 @@
+ros-indigo-designator-integration-lisp (0.0.5-0saucy) saucy; urgency=high
+
+
+
+ -- Jan Winkler <winkler@cs.uni-bremen.de>  Wed, 20 Apr 2016 22:00:00 -0000
+
+ros-indigo-designator-integration-lisp (0.0.3-0saucy) saucy; urgency=high
+
+
+
+ -- Jan Winkler <winkler@cs.uni-bremen.de>  Thu, 03 Dec 2015 23:00:00 -0000
+
+ros-indigo-designator-integration-lisp (0.0.2-0saucy) saucy; urgency=high
+
+  * package.xml updates
+  * Supported for new designator type: Human.
+  * Removed symlink to asd-file in designator_integration_lisp because this breaks during bloom releases.
+  * Moved in designator-integration-lisp.
+  * Contributors: Georg Bartels, Jan Winkler
+
+ -- Jan Winkler <winkler@cs.uni-bremen.de>  Mon, 20 Apr 2015 22:00:00 -0000
+
+
