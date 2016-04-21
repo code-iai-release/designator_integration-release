@@ -1,0 +1,12 @@
+Source: ros-jade-designator-integration
+Section: misc
+Priority: extra
+Maintainer: Jan Winkler <winkler@cs.uni-bremen.de>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jade-designator-integration
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-designator-integration-cpp, ros-jade-designator-integration-lisp
+Description: Metapackage grouping the packages C++ and Common LISP library packages for ROS designator integraiton.
